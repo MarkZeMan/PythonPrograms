@@ -1,0 +1,33 @@
+dark = False
+
+while dark == False:
+
+    dark_room = input("You wake up in a dark room, you search your pockets and find a lantern: ")
+
+    if dark_room == "light lantern" or dark_room == "turn on lantern" or dark_room == "light the lantern" or dark_room == "turn on the lantern":
+        dark = True
+        
+    
+    else:
+        print("What?")
+        
+dark = False
+
+while dark == False:
+
+    print("")
+    
+    dark_room = input("You light the lantern and see a bedroom, complete with a bed, a nightstand, and a lamp. You also notice a door to the west and the north: ")
+
+    if dark_room == "search nightstand":
+
+	    print("You spot a sword and grab it")
+	    sword = True
+	    dark = True
+	    print("")
+	    dark_room = input("You light the lantern and see a bedroom, complete with a bed, a nightstand, and a lamp. You also notice a door to the west and the north: ")
+	    if dark_room == "west" or "go west":
+	      
+	      
+	    
+	 if dark_room == "west" or "go west"
