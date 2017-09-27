@@ -1,0 +1,31 @@
+"""
+Welcome to the Ms. Kol Simulator! This is a program that simulates what it is like to be in Ms. Kol's math
+class.
+"""
+
+
+print("*Notice: Answer with a lowercase y/n ('y' representing 'yes' and 'n' representing'no'[Unless otherwise stated]) to avoid errors")
+print("-----------------------")
+print("You walk into class and you see a bunch of asians talking to their friends or sitting at their desks, waiting for the period to begin.")
+print("")
+print("Then you hear the bell ring. The asians start going to their assigned seats and sit down.")
+print("")
+sit = input("Do you choose to sit down at your seat or go and talk to your friend? (y to sit at your seat, n to talk to your friend)")
+print("")
+if sit == "n":
+  print("Ms. Kol comes and asks you 'Why aren't you at your seat?' You tell her that you are sorry and you go to your seat.")
+elif sit == "y":
+  print("You go to your seat and sit down.")
+print("")
+print("You take out last night's homework and start checking the answers with your table group. After you finish checking, Ms. Kol asks the class for their attention. She is going to explain the answers to the problems people struggled on.")
+print("")
+print("You realize that you struggled all throughout part 2 of the homework and you want to ask Ms. Kol for the answers to part 2 and how to do them. However, annoying Harry to your right starts to tell you a joke.")
+print("")
+harry = input("Do you choose to distract yourself by Harry?")
+if harry == "y":
+  print("You listen to Harry's joke. It was so funny, you started laughing. Ms. Kol stops her demonstartion and asks you 'Why are you smiling? This is Math! Math is not fun!' You stop laughing and get back on task.")
+elif harry == "n":
+  print("Harry gets annoyed. He starts talking a little louder to get your attention. However, Ms. Kol hears him and asks him 'Why are you talking? This is Math! Ther is no talking! If you want to talk, you can talk outside the classroom.' Harry shuts up and stops telling you jokes.")
+print("Ms. Kol finishes explaining the answers, she hands out the homework. Your task is to complete as many problems as you can until the bell rings.")
+print("")
+print("Thanks for trying the Ms. Kol Simulator")
