@@ -1,0 +1,66 @@
+#Calculator
+
+print("This is a simple calculator, you will choose two numbers, and then choose whether to subtract, add, multiply, divide or to exponent the crap out of them (I'm too lazy to add any more).")
+
+print("-----------------------------------------------------------------------------")
+
+#sub to Zoli5 gaming
+
+Number_1 = input("First number please: ")
+
+#Checks if it is a number
+Number_1 = float(Number_1)
+
+print("")
+
+Number_2 = input("Second number please: ")
+
+Number_1 = float(Number_1)
+
+
+
+x = 1
+
+while x == 1:
+    
+    print("")
+    addsubtract = input("Add, Subtract, Multiply, Divide or Exponent_The_Crap_Out_Of_Them?")
+
+    if addsubtract == "Add" or addsubtract =="add" or addsubtract =="Plus" or addsubtract =="plus":
+        added = float(Number_1) + float(Number_2)
+        print("")
+        print("-----------------------------------------------------------------------------")
+        print(str(added) + " is your number!")
+        x = 2
+
+    elif addsubtract == "Subtract" or addsubtract =="subtract" or addsubtract =="Minus" or addsubtract =="minus":
+        subtracted = float(Number_1) - float(Number_2)
+        print("")
+        print("-----------------------------------------------------------------------------")
+        print(str(subtracted) + " is your number!")
+        x = 2
+
+    elif addsubtract == "Multiply" or addsubtract =="multiply" or addsubtract =="Times" or addsubtract =="times":
+        multiplied = float(Number_1) * float(Number_2)
+        print("")
+        print("-----------------------------------------------------------------------------")
+        print(str(multiplied) + " is your number!")
+        x = 2    
+
+    elif addsubtract == addsubtract =="Divide" or addsubtract =="divide":
+        divided = float(Number_1) / float(Number_2)
+        print("")
+        print("-----------------------------------------------------------------------------")
+        print(str(divided) + " is your number!")
+        x = 2
+    
+    elif addsubtract == "Exponent_the_crap_out_of_them" or addsubtract =="exponent_the_crap_out_of_them" or addsubtract =="Exponent_The_Crap_Out_Of_Them":
+        exponented = float(Number_1) ** float(Number_2)
+        print("")
+        print("-----------------------------------------------------------------------------")
+        print(str(exponented) + " is your number!")
+        x = 2   
+
+    else:
+        print("")
+        print("Screw you!")
